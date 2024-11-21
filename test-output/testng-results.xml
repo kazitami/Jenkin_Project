@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-21T18:52:51 EST" name="Suite" finished-at="2024-11-21T18:54:00 EST" duration-ms="68253">
+    <groups>
+    </groups>
+    <test started-at="2024-11-21T18:52:51 EST" name="Test" finished-at="2024-11-21T18:54:00 EST" duration-ms="68253">
+      <class name="Jenkins_execution_check.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:52:52 EST" name="setup" finished-at="2024-11-21T18:52:56 EST" duration-ms="4580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:52:56 EST" name="verifyLoginWithValidCredentials" finished-at="2024-11-21T18:52:57 EST" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:52:57 EST" name="tearDown" finished-at="2024-11-21T18:52:57 EST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:52:57 EST" name="setup" finished-at="2024-11-21T18:53:02 EST" duration-ms="4286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:02 EST" name="verifyLoginWithInvalidCredentials" finished-at="2024-11-21T18:53:02 EST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:02 EST" name="tearDown" finished-at="2024-11-21T18:53:03 EST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:03 EST" name="setup" finished-at="2024-11-21T18:53:07 EST" duration-ms="4299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailandInvalidPassword()[pri:3, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:07 EST" name="verifyLoginWithValidEmailandInvalidPassword" finished-at="2024-11-21T18:53:08 EST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailandInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:08 EST" name="tearDown" finished-at="2024-11-21T18:53:08 EST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:08 EST" name="setup" finished-at="2024-11-21T18:53:12 EST" duration-ms="4068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailandValidPassword()[pri:4, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:12 EST" name="verifyLoginWithInvalidEmailandValidPassword" finished-at="2024-11-21T18:53:12 EST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailandValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:12 EST" name="tearDown" finished-at="2024-11-21T18:53:13 EST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:13 EST" name="setup" finished-at="2024-11-21T18:53:17 EST" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:17 EST" name="verifyLoginWithNoCredentials" finished-at="2024-11-21T18:53:18 EST" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.Login@3c419631]" started-at="2024-11-21T18:53:18 EST" name="tearDown" finished-at="2024-11-21T18:53:18 EST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Jenkins_execution_check.Login -->
+      <class name="Jenkins_execution_check.Register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:18 EST" name="setup" finished-at="2024-11-21T18:53:23 EST" duration-ms="4982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithNoInputs()[pri:1, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:23 EST" name="registerWithNoInputs" finished-at="2024-11-21T18:53:23 EST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithNoInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:23 EST" name="tearDown" finished-at="2024-11-21T18:53:24 EST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:24 EST" name="setup" finished-at="2024-11-21T18:53:28 EST" duration-ms="4714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithMandatoryFields()[pri:2, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:28 EST" name="registerWithMandatoryFields" finished-at="2024-11-21T18:53:29 EST" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:29 EST" name="tearDown" finished-at="2024-11-21T18:53:29 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:29 EST" name="setup" finished-at="2024-11-21T18:53:34 EST" duration-ms="4527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithAllDetails()[pri:3, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:34 EST" name="registerWithAllDetails" finished-at="2024-11-21T18:53:35 EST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithAllDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:35 EST" name="tearDown" finished-at="2024-11-21T18:53:35 EST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:35 EST" name="setup" finished-at="2024-11-21T18:53:40 EST" duration-ms="4493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithExistingEmail()[pri:4, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:40 EST" name="registerWithExistingEmail" finished-at="2024-11-21T18:53:40 EST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:40 EST" name="tearDown" finished-at="2024-11-21T18:53:40 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:40 EST" name="setup" finished-at="2024-11-21T18:53:45 EST" duration-ms="4780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithWrongConfirmPassword()[pri:5, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:45 EST" name="registerWithWrongConfirmPassword" finished-at="2024-11-21T18:53:46 EST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithWrongConfirmPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.Register@3d74bf60]" started-at="2024-11-21T18:53:46 EST" name="tearDown" finished-at="2024-11-21T18:53:46 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Jenkins_execution_check.Register -->
+      <class name="Jenkins_execution_check.SearchProduct">
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:Jenkins_execution_check.SearchProduct@4f209819]" started-at="2024-11-21T18:53:46 EST" name="registerassertions" finished-at="2024-11-21T18:53:50 EST" duration-ms="4017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:Jenkins_execution_check.SearchProduct@4f209819]" started-at="2024-11-21T18:53:50 EST" name="verifySearchWithValidProduct" finished-at="2024-11-21T18:53:51 EST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.SearchProduct@4f209819]" started-at="2024-11-21T18:53:51 EST" name="tearDown" finished-at="2024-11-21T18:53:51 EST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:Jenkins_execution_check.SearchProduct@4f209819]" started-at="2024-11-21T18:53:51 EST" name="registerassertions" finished-at="2024-11-21T18:53:55 EST" duration-ms="3958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:Jenkins_execution_check.SearchProduct@4f209819]" started-at="2024-11-21T18:53:55 EST" name="verifySearchWithInvalidProduct" finished-at="2024-11-21T18:53:55 EST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.SearchProduct@4f209819]" started-at="2024-11-21T18:53:55 EST" name="tearDown" finished-at="2024-11-21T18:53:55 EST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:Jenkins_execution_check.SearchProduct@4f209819]" started-at="2024-11-21T18:53:55 EST" name="registerassertions" finished-at="2024-11-21T18:53:59 EST" duration-ms="3954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:Jenkins_execution_check.SearchProduct@4f209819]" started-at="2024-11-21T18:53:59 EST" name="verifySearchWithNoProduct" finished-at="2024-11-21T18:54:00 EST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins_execution_check.SearchProduct@4f209819]" started-at="2024-11-21T18:54:00 EST" name="tearDown" finished-at="2024-11-21T18:54:00 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Jenkins_execution_check.SearchProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
